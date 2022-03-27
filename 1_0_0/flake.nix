@@ -11,6 +11,7 @@
   inputs.src-optional_t-1_0_0.ref   = "refs/tags/1.0.0";
   inputs.src-optional_t-1_0_0.owner = "flaviut";
   inputs.src-optional_t-1_0_0.repo  = "optional_t";
+  inputs.src-optional_t-1_0_0.dir   = "";
   inputs.src-optional_t-1_0_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

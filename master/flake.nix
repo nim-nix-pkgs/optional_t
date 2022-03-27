@@ -11,6 +11,7 @@
   inputs.src-optional_t-master.ref   = "refs/heads/master";
   inputs.src-optional_t-master.owner = "flaviut";
   inputs.src-optional_t-master.repo  = "optional_t";
+  inputs.src-optional_t-master.dir   = "";
   inputs.src-optional_t-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
